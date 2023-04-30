@@ -1,0 +1,19 @@
+@import '/src/assets/scss/base/variables/colors.scss';
+
+.certificates {
+    display: flex;
+    gap: 2rem;
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 1em;
+    padding: 2rem;
+    border-radius: 1em;
+    background-color: $primary-color;
+
+}

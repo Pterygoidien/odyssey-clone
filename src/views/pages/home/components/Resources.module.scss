@@ -1,0 +1,12 @@
+@import '../../../../assets/scss/base/variables/display-sizes';
+
+.resources {
+    background: #F4F6F8;
+    margin: 0 auto;
+    max-width: $screen-4xl;
+    text-align: center;
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

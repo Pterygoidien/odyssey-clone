@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    max-width: $screen-4xl;
+    margin: 0 auto;
+}
+
+.container-xl {
+    @extend .container;
+    max-width: $screen-xl;
+}
+
+/*width containers*/
+.w-full,
+.w-100 {
+    width: 100%;
+}
+
+.w-max-full,
+.w-max-100 {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
